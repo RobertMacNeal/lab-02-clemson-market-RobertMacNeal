@@ -18,10 +18,10 @@ price_banana = lbs_banana * 2.73
 
 total_price = price_banana + price_chip + price_tsw
 # TODO: Format below output correctly
-print(f"Your total before tax is {total_price}.")
+print(f"Your total before tax is ${total_price:.2f}.")
 
 print("Please enter the tax rate:")
 tax_rate = float(input())
 total_tax = total_price + total_price * (tax_rate/100)
 # TODO: Format below output correctly
-print(f"Your total after tax is {total_tax:.2f}. Thank you for shopping at the Clemson Market!")
+print(f"Your total after tax is ${total_tax:.2f}. Thank you for shopping at the Clemson Market!")
